@@ -13,6 +13,7 @@
 		95890A9A2A97BD6800F1EEFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95890A982A97BD6800F1EEFA /* Main.storyboard */; };
 		95890A9C2A97BD6900F1EEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95890A9B2A97BD6900F1EEFA /* Assets.xcassets */; };
 		95890A9F2A97BD6900F1EEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95890A9D2A97BD6900F1EEFA /* LaunchScreen.storyboard */; };
+		95890AC72A97CDBF00F1EEFA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 95890AC62A97CDBF00F1EEFA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95890A9B2A97BD6900F1EEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95890A9E2A97BD6900F1EEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95890AA02A97BD6900F1EEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95890AC62A97CDBF00F1EEFA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				95890A942A97BD6800F1EEFA /* SceneDelegate.swift */,
 				95890A962A97BD6800F1EEFA /* ViewController.swift */,
 				95890A982A97BD6800F1EEFA /* Main.storyboard */,
+				95890AC62A97CDBF00F1EEFA /* README.md */,
 				95890A9B2A97BD6900F1EEFA /* Assets.xcassets */,
 				95890A9D2A97BD6900F1EEFA /* LaunchScreen.storyboard */,
 				95890AA02A97BD6900F1EEFA /* Info.plist */,
@@ -127,6 +130,7 @@
 			files = (
 				95890A9F2A97BD6900F1EEFA /* LaunchScreen.storyboard in Resources */,
 				95890A9C2A97BD6900F1EEFA /* Assets.xcassets in Resources */,
+				95890AC72A97CDBF00F1EEFA /* README.md in Resources */,
 				95890A9A2A97BD6800F1EEFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
