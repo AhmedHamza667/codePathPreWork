@@ -27,11 +27,24 @@ GIF created with ...
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
-## App Brainstorming (Step 4)
+## App Brainstorming
+
+**Facebook**
+- [ ] Anonymous posting 
+- [ ] Memories and old posts
+
+**WhatsApp**
+- [ ] Starring messages 
+- [ ] Being able to see all messages even while being offline
+
+**Notion**
+- [ ] Calender system and reminders 
+- [ ] Todos
+
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I faced a challenge trying to connect the UI to the logic and learning the syntax of Swift
 
 ## License
 
