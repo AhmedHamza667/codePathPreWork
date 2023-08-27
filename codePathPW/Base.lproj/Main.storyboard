@@ -108,7 +108,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Result:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xa2-lp-ySh">
-                                <rect key="frame" x="164" y="460" width="52" height="21"/>
+                                <rect key="frame" x="148" y="464" width="156" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -119,10 +119,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="heightFt" destination="m0Y-rh-NDC" id="J5o-y5-pPS"/>
-                        <outlet property="heightIn" destination="6ZO-rH-724" id="NGu-xy-Dcd"/>
-                        <outlet property="result" destination="Xa2-lp-ySh" id="1hf-CJ-Ngh"/>
-                        <outlet property="weight" destination="qKi-Ga-sPC" id="aG6-YS-X28"/>
+                        <outlet property="inputFt" destination="m0Y-rh-NDC" id="BSq-38-AtN"/>
+                        <outlet property="inputIn" destination="6ZO-rH-724" id="oqt-Tq-B9U"/>
+                        <outlet property="inputLb" destination="qKi-Ga-sPC" id="1RK-ve-mjI"/>
+                        <outlet property="result" destination="Xa2-lp-ySh" id="EPm-Tb-PD8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

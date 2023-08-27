@@ -26,22 +26,25 @@ class ViewController: UIViewController {
         view.backgroundColor = randomColor
     }
     
-    @IBOutlet weak var heightFttf: UITextField!
-    @IBOutlet weak var heightIntf: UITextField!
-    @IBOutlet weak var weighttf: UITextField!
-    @IBOutlet weak var result: UILabel!
 
+    @IBOutlet weak var inputFt: UITextField!
+    @IBOutlet weak var inputIn: UITextField!
+    @IBOutlet weak var inputLb: UITextField!
+   
+    @IBOutlet weak var result: UILabel!
     @IBAction func calculateBMI(_ sender: UIButton) {
-        if let heightFtText = heightFttf.text, let heightInText = heightIntf.text, let weightText = weighttf.text,
-           let heightFt = Int(heightFtText), let heightIn = Int(heightInText), let weight = Int(weightText) {
-            
-            let inches = (heightFt * 12) + heightIn
-            let bmi = Double(weight) / Double(inches * inches) * 703
+        if let heightinFt = inputFt.text, let heightinIn = inputIn.text, let wheightinLb = inputLb.text,
+           
+            let heightinFt = Int(heightinFt), let heightinIn = Int(heightinIn), let wheightinLb = Int(wheightinLb) {
+
+            let inches = (heightinFt * 12) + heightinIn
+            let bmi = Double(wheightinLb) / Double(inches * inches) * 703
                     
             result.text = String(format: "BMI: %.2f", bmi)
         } else {
-            result.text = "Invalid input"
-        }
+                result.text = "Invalid input"
+            }
+       
     }
 
     
